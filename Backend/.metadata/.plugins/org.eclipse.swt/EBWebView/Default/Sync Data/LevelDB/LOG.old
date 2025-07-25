@@ -1,2 +1,3 @@
-2025/07/25-21:37:00.250 abc Creating DB D:\PERSONAL PROJECTS\Online_Pharma_Team_3\Backend\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Sync Data\LevelDB since it was missing.
-2025/07/25-21:37:00.259 abc Reusing MANIFEST D:\PERSONAL PROJECTS\Online_Pharma_Team_3\Backend\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Sync Data\LevelDB/MANIFEST-000001
+2025/07/25-21:37:14.804 a28 Reusing MANIFEST D:\PERSONAL PROJECTS\Online_Pharma_Team_3\Backend\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Sync Data\LevelDB/MANIFEST-000001
+2025/07/25-21:37:14.808 a28 Recovering log #3
+2025/07/25-21:37:14.809 a28 Reusing old log D:\PERSONAL PROJECTS\Online_Pharma_Team_3\Backend\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Sync Data\LevelDB/000003.log 
