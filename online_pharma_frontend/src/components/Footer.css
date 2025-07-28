@@ -1,0 +1,154 @@
+/* Footer styles */
+.footer {
+  background-color: #1a202c; /* Dark background */
+  color: #e2e8f0; /* Light text color */
+  padding: 3rem 1.5rem; /* Padding on all sides */
+  margin-top: 5rem; /* Space above the footer */
+}
+
+.footer-container {
+  max-width: 1280px; /* Max width for large screens */
+  margin: 0 auto; /* Center the container */
+  display: grid; /* Use grid layout */
+  grid-template-columns: 1fr; /* Default 1 column on small screens */
+  gap: 3rem; /* Space between columns */
+}
+
+/* Media queries for responsiveness */
+@media (min-width: 640px) {
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on medium screens */
+  }
+}
+
+@media (min-width: 768px) {
+  .footer-container {
+    grid-template-columns: repeat(4, 1fr); /* 4 columns on large screens */
+  }
+}
+
+.footer-section {
+  margin-bottom: 2rem; /* Space below each section */
+}
+
+.footer-title {
+  font-weight: bold;
+  margin-bottom: 1rem;
+  font-size: 0.875rem; /* Small font size for headings */
+  color: #81e6d9; /* Teal color for titles */
+  text-transform: uppercase; /* Uppercase for headings */
+}
+
+.footer-description,
+.footer-small-text {
+  font-size: 0.875rem; /* Standard text size */
+  margin-bottom: 0.75rem; /* Space below text */
+}
+
+.footer-subtext {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* Space between icon and text */
+  font-size: 0.75rem; /* Smaller text for subtext */
+  color: #48bb78; /* Green color */
+}
+
+.footer-list {
+  font-size: 0.875rem; /* Standard font size */
+  list-style-type: none; /* Remove bullet points */
+  padding-left: 0; /* Remove padding */
+}
+
+.footer-list-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* Space between icon and text */
+}
+
+.footer-icon {
+  color: #81e6d9; /* Match icon color with title */
+}
+
+.footer-link {
+  color: #38b2ac; /* Teal link color */
+  text-decoration: underline; /* Underline links */
+}
+
+.footer-emergency {
+  background-color: #2d3748; /* Dark background for emergency box */
+  padding: 1rem; /* Padding inside the box */
+  border-radius: 0.375rem; /* Rounded corners */
+}
+
+.footer-emergency-title {
+  font-size: 0.75rem;
+  color: #facc15; /* Yellow color for emergency title */
+  font-weight: bold; /* Make title bold */
+  margin-bottom: 0.25rem; /* Space below title */
+}
+
+.footer-emergency-number {
+  font-size: 1rem;
+  color: #ffffff; /* White color for the number */
+}
+
+.footer-divider {
+  border-color: #4a5568; /* Darker border */
+  margin: 2.5rem 0; /* Space around the divider */
+}
+
+.footer-bottom {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  font-size: 0.75rem;
+  color: #e2e8f0; /* Light text */
+}
+
+.footer-bottom-left {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center; /* Center content on small screens */
+}
+
+.footer-badges {
+  display: flex;
+  gap: 1rem;
+  justify-content: center; /* Center badges */
+}
+
+.footer-badge {
+  padding: 0.25rem 0.75rem; /* Padding for badges */
+  font-size: 0.75rem; /* Small font size */
+  border-radius: 0.375rem; /* Rounded corners for badges */
+}
+
+.footer-badge.green {
+  background-color: #2f855a; /* Green background for licensed badge */
+  color: #38a169; /* Lighter green text */
+}
+
+.footer-badge.blue {
+  background-color: #2b6cb0; /* Blue background for SSL badge */
+  color: #63b3ed; /* Lighter blue text */
+}
+
+.footer-badge.purple {
+  background-color: #6b46c1; /* Purple background for HIPAA badge */
+  color: #d6bcfa; /* Light purple text */
+}
+
+.footer-bottom-right {
+  margin-top: 1rem; /* Add space above text */
+  text-align: left; /* Align text left on larger screens */
+}
+
+@media (min-width: 768px) {
+  .footer-bottom-right {
+    text-align: right; /* Align text to the right on large screens */
+  }
+}

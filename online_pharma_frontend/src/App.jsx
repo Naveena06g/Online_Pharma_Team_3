@@ -1,35 +1,72 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+
+
+
+// import React from 'react';
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+// import Header from './components/Header';
+// import { CartProvider } from './components/CartProvider';
+// import Hero from './components/Hero';
+// import Footer from './components/Footer';
+
+// function App() {
+//   return (
+//     <CartProvider>
+//       <Router>  {/* Ensure Router wraps everything that requires routing */}
+//         <div className="app d-flex flex-column min-vh-100">
+//           <Header />
+          
+//           {/* Define Routes with Route components */}
+//           <Routes>
+//             <Route path="/" element={<Hero />} /> {/* Set Hero to render at the root path */}
+//             <Route path="/" element={<Footer />} />
+//           </Routes>
+//         </div>
+//       </Router>
+//     </CartProvider>
+//   );
+// }
+
+// export default App;
+
+
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Header from './components/Header';
+import { CartProvider } from './components/CartProvider';
+import Hero from './components/Hero';
+import Footer from './components/Footer';
+import AboutUs from './components/AboutUs';
+import Profile from './components/Profile';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <CartProvider>
+      <Router>
+        {/* Wrap everything with Router */}
+        <div className="app d-flex flex-column min-vh-100">
+          {/* Header will always be rendered */}
+          <Header />
+          
+          {/* Define Routes with specific path */}
+        <Routes>
+  <Route
+    path="/"
+    element={
+      <>
+        <Hero />
+        <AboutUs />
+      </>
+    }
+  />
+  <Route path="/profile" element={<Profile />} />
+</Routes>
+<Footer />
+
+         
+        </div>
+      </Router>
+    </CartProvider>
+  );
 }
 
-export default App
+export default App;
