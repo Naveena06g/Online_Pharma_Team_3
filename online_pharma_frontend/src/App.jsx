@@ -36,9 +36,18 @@ import { CartProvider } from './components/CartProvider';
 import Hero from './components/Hero';
 import Footer from './components/Footer';
 import AboutUs from './components/AboutUs';
-import Profile from './components/Profile';
+// import Profile from './components/Profile';
+import Cart from './components/MediStoreCart';
+import Tabs from './components/Tabs';
+import AdminAuth from './components/AdminAuth';
+import DrugManager from './components/DrugManager';
+import UserAuth from './components/UserAuth';
+import UserDrugs from './components/UserDrugs';
 
+
+ 
 function App() {
+  const [activeTab, setActiveTab] = useState('admin-auth');
   return (
     <CartProvider>
       <Router>
@@ -58,7 +67,14 @@ function App() {
       </>
     }
   />
-  <Route path="/profile" element={<Profile />} />
+  <Route path="/cart" element={<Cart />} />
+   <Tabs activeTab={activeTab} setActiveTab={setActiveTab} />
+  
+        {activeTab === 'admin-auth' && <AdminAuth />}
+        {activeTab === 'admin-drugs' && <DrugManager />}
+        {activeTab === 'user-auth' && <UserAuth />}
+        {activeTab === 'user-drugs' && <UserDrugs />}
+  {/* <Route path="/profile" element={<Profile />} /> */}
 </Routes>
 <Footer />
 

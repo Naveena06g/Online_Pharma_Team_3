@@ -11,6 +11,8 @@ import {
 } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import { useCart } from "./CartProvider"; 
+import MediStoreCart from "./MediStoreCart"; 
+
 
 const Header = () => {
   const navigate = useNavigate();
@@ -86,19 +88,16 @@ const Header = () => {
           </span>
 
           <span className="icon-wrapper rounded-pill">
-            <button className="nav-button" onClick={() => navigate("/cart")}>
+            {/* <button className="nav-button" onClick={() => navigate("/cart")}>
               <FaShoppingCart className="nav-icon" />
               {cartCount > 0 && (
                 <span className="wishlist-badge">{cartCount}</span>
               )}
-            </button>
-
-            {/* <button
-              className="nav-button"
-              onClick={() => navigate("/notifications")}
-            >
-              <FaBell className="nav-icon" />
             </button> */}
+            <button className="nav-button" onClick={() => navigate("/cart")}>
+              <FaShoppingCart className="nav-icon" />
+               {cart.length > 0 && <MediStoreCart cart={cart} />}
+            </button>
 
             <button className="nav-button" onClick={() => navigate("/profile")}>
               <FaUser className="nav-icon" />
