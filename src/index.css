@@ -1,0 +1,57 @@
+body {
+font-family: Arial, sans-serif;
+background-image: url('./image.png');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+margin: 0;
+padding: 0;
+  
+  
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-box, .profile-box {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button.logout-btn {
+  background: #f44336;
+}
+
+button:hover {
+  opacity: 0.9;
+}

@@ -1,0 +1,61 @@
+app.css->/* General Styles */
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  
+  /* Background image properties */
+  background-image: url('./image.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Semi-transparent overlay to improve readability */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.85);
+  z-index: -1;
+}
+
+.app {
+  width: 100%;
+  max-width: 3000px;
+  padding: 20px;
+}
+
+.app-header {
+  background-color: rgba(44, 62, 80, 0.9); /* Slightly transparent */
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  backdrop-filter: blur(2px);
+}
+
+/* Login Form Styles */
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.95); /* Slightly transparent white */
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(3px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Rest of your CSS remains the same */
