@@ -1,0 +1,54 @@
+.admin-bg {
+  background: linear-gradient(120deg, #f8fafc 0%, #e8f0fe 100%);
+  min-height: 100vh;
+}
+
+.admin-navbar {
+  background: linear-gradient(90deg, #1976d2 60%, #5e60ce 100%);
+  border-radius: 0 0 1rem 1rem;
+}
+
+.admin-card {
+  border-radius: 1rem;
+}
+
+.admin-cardheader-users {
+  background: linear-gradient(90deg, #39afd4 70%, #6ed3cf 100%);
+  color: #fff;
+}
+
+.admin-cardheader-products {
+  background: linear-gradient(90deg, #33d38e 70%, #85b74c 100%);
+  color: #fff;
+}
+
+.admin-cardheader-profile {
+  background: linear-gradient(90deg, #4285F4 70%, #709fe0 100%);
+  color: #fff;
+}
+
+.admin-cardheader-logout {
+  background: linear-gradient(90deg, #d7263d 70%, #fa7070 100%);
+  color: #fff;
+}
+
+.admin-btn-primary {
+  background: #1976d2;
+  color: white;
+  border-radius: 2rem;
+}
+.admin-btn-secondary {
+  background: #5e60ce;
+  color: white;
+  border-radius: 2rem;
+}
+.admin-btn-warning {
+  background: #ffd166;
+  color: #6d4606;
+  border-radius: 2rem;
+}
+.admin-btn-danger {
+  background: #d7263d;
+  color: white;
+  border-radius: 2rem;
+}
