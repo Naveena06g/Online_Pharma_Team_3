@@ -218,7 +218,7 @@ For any queries or support, please contact the development team.
 
 Dasari Naveen, 
  Gaddameedi Naveena,
-Ch.varshitha,
+Chiluka Varshitha,
  Rananki Jahnavi,
   Vengala Manogna,
 Shravya Megharaj
