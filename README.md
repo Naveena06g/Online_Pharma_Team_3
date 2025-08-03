@@ -10,7 +10,7 @@ A comprehensive web-based pharmacy management system that allows users to browse
 - **Session Management**: Login/logout functionality with session handling
 - **Admin Approval**: Member registration requires admin approval before accessing the system
 
-### Drug Management (Admin)
+### Drug Management - (Admin)
 - **CRUD Operations**: Add, view, edit, and delete drug entries
 - **Search Functionality**: Find drugs by ID or name
 - **Inventory Management**: Track drug quantities and availability
