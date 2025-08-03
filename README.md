@@ -1,5 +1,5 @@
-# Online_Pharma_Team_3
-# Online Pharmacy - Capstone Project
+# Online_Pharma_Team_3 Project
+# Online Pharmacy - Capstone 
 
 A comprehensive web-based pharmacy management system that allows users to browse, order medicines online, and provides admin functionality for drug and member management.
 
