@@ -41,6 +41,8 @@ A comprehensive web-based pharmacy management system that allows users to browse
 ### Frontend
 - **Framework**: Angular/React JS/JavaScript
 - **UI/UX**: Responsive web interface
+- <img width="1340" height="624" alt="image" src="https://github.com/user-attachments/assets/7148c7a2-d505-49dd-adae-b8df994671cd" />
+
 
 ### Development Tools
 - **API Testing**: Postman for REST API testing
