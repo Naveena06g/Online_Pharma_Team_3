@@ -1,0 +1,73 @@
+/* Full-screen background with soft blur */
+.bg-login {
+  background-image: url('../../assets/lib.jpg'); /* Replace with your own */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Glassmorphism-style form container */
+.MuiPaper-root {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: 16px;
+  padding: 32px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Headings */
+.MuiTypography-h5,
+.MuiTypography-h6 {
+  color: #161515;
+  font-weight: 600;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+/* Inputs */
+.MuiOutlinedInput-root {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+}
+
+/* Button */
+.MuiButton-contained {
+  background-color: #171818;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 0;
+  transition: background-color 0.3s ease;
+}
+
+.MuiButton-contained:hover {
+  background-color: #18191a;
+}
+
+/* Link */
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Error alert */
+.MuiAlert-root {
+  background-color: rgba(255, 0, 0, 0.1);
+  color: #b00020;
+  font-weight: 500;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .MuiPaper-root {
+    padding: 24px 16px;
+  }
+}
