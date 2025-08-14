@@ -9,6 +9,8 @@ A comprehensive web-based pharmacy management system that allows users to browse
 - **User Registration & Login**: Secure authentication system for members and admins
 - **Session Management**: Login/logout functionality with session handling
 - **Admin Approval**: Member registration requires admin approval before accessing the system
+  <img width="1313" height="674" alt="Screenshot 2025-08-14 183818" src="https://github.com/user-attachments/assets/b4e141f0-c14c-4a9e-951a-93ae04a591ad" />
+
 
 ### Drug Management - (Admin)
 - **CRUD Operations**: Add, view, edit, and delete drug entries
@@ -16,11 +18,15 @@ A comprehensive web-based pharmacy management system that allows users to browse
 - **Inventory Management**: Track drug quantities and availability
 - **Drug Catalog**: Comprehensive listing of all available medicines
 
+<img width="1353" height="686" alt="Screenshot 2025-08-14 183641" src="https://github.com/user-attachments/assets/c22532bf-63dc-40c6-b6f4-bebbff4292e6" />
+
 ### Member Management
 - **User Registration**: New members can register for the platform
 - **Profile Management**: Members can update personal details (email, mobile, etc.)
 - **Admin Controls**: Admins can view, disable, delete, and update member accounts
 - **Approval Workflow**: Admin approval required for new member registrations
+
+<img width="1362" height="690" alt="Screenshot 2025-08-14 184330" src="https://github.com/user-attachments/assets/debfe675-5080-47c8-abc7-f01d2e80b8af" />
 
 ### Medicine Ordering System
 - **Drug Search & Browse**: Members can search and view drugs by name or ID
@@ -218,12 +224,28 @@ This project is developed as part of IIHT Capstone Project requirements.
 
 For any queries or support, please contact the development team.
 
-Dasari Naveen, 
+ 
  Gaddameedi Naveena,
+ Dasari Naveen,
 Chiluka Varshitha,
  Rananki Jahnavi,
   Vengala Manogna,
 Shravya Megharaj
 ---
+results:
+
+<img width="1361" height="735" alt="Screenshot 2025-08-14 183624" src="https://github.com/user-attachments/assets/3b9c0d5c-fc73-481f-9b54-144d0418327f" />
+
+<img width="1353" height="686" alt="Screenshot 2025-08-14 183641" src="https://github.com/user-attachments/assets/8637f499-ca8e-4e0e-97cf-e601c986aa53" />
+
+<img width="1344" height="691" alt="Screenshot 2025-08-14 183655" src="https://github.com/user-attachments/assets/7986e902-4d11-4429-85e2-f1284fdd8d10" />
+
+<img width="1353" height="690" alt="Screenshot 2025-08-14 183717" src="https://github.com/user-attachments/assets/77bb3afc-31df-42ce-bea3-733ce6afc0f7" />
+
+<img width="1313" height="674" alt="Screenshot 2025-08-14 183818" src="https://github.com/user-attachments/assets/3c60a607-8641-40d3-920e-35dbef6c3dd2" />
+
+<img width="1350" height="690" alt="Screenshot 2025-08-14 184303" src="https://github.com/user-attachments/assets/6f229598-f10a-4b81-a74d-af33e6a5db88" />
+
+<img width="1362" height="690" alt="Screenshot 2025-08-14 184330" src="https://github.com/user-attachments/assets/693d90bf-f084-47b7-a34a-c1eab978e8b2" />
 
 **Note**: This project is designed for educational purposes as part of the capstone project requirements. Payment processing is intentionally excluded from the scope.
